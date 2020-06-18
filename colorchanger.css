@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #2E2D4D;
+}
+
+.nav-center {
+    width: 90vw;
+    max-width: var(--fixed-width);
+    margin: 0 auto;
+}
+
+.inner-element {
+    width: 450px;
+    height: 100px;
+    /* Align div to center of screen */
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    /* ***************************** */
+}
+
+h2 {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    /* Align button to center of div */
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* **************************** */
+    border: 2px solid black !important;
+    color: black;
+    font-size: 20px;
+}
